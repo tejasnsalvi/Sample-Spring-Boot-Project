@@ -10,11 +10,13 @@ To run this project you need mention the file location where property files are 
 
 How to run project on linux server in nohup
 
-<br/> nohup java -jar /home/nw18/techCharts-0.0.1-SNAPSHOT.jar --spring.config.location=file:/home/nw18/csvProperties/ --NW18ENV=STAGE >> /var/tmp/techCharts.log &
+<br/>Command to put:- nohup java -jar /home/nw18/techCharts-0.0.1-SNAPSHOT.jar --spring.config.location=file:/home/nw18/csvProperties/ --NW18ENV=STAGE >> /var/tmp/techCharts.log &
 
 <br/>--spring.config.location :- Here you specify property file path , if inubuilt property file then dont use this command at all.
 <br/>--NW18ENV=STAGE :- To specify env and accordingly load specific property file.
 <br/>/home/nw18/techCharts-0.0.1-SNAPSHOT.jar :- path where your jar is located on server.
 <br/>>> /var/tmp/techCharts.log  :- This specifies where the log will be generated and log file name.
+
+<br/>Command to check running jar:- 1) ps aux | grep java (this will find all java process running)  2) ps aux | grep techCharts (this will find your specific jar)
 
 
