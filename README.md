@@ -8,7 +8,7 @@ Please see the attachment Image for configurations
 
 To run this project you need mention the file location where property files are kept.
 
-How to run project on linux server in nohup
+### How to run project on linux server in nohup
 
 <br/>Command to put:- nohup java -jar /home/nw18/techCharts-0.0.1-SNAPSHOT.jar --spring.config.location=file:/home/nw18/csvProperties/ --NW18ENV=STAGE >> /var/tmp/techCharts.log &
 
