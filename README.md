@@ -10,7 +10,7 @@ To run this project you need mention the file location where property files are 
 
 ### How to run project on linux server in nohup
 
-<br/>Command to put:- nohup java -jar /home/nw18/techCharts-0.0.1-SNAPSHOT.jar --spring.config.location=file:/home/my/csvProperties/ --MYENV=STAGE >> /var/tmp/my.log &
+<br/>Command to put:- nohup java -jar /home/MY-0.0.1-SNAPSHOT.jar --spring.config.location=file:/home/my/csvProperties/ --MYENV=STAGE >> /var/tmp/my.log &
 
 <br/>--spring.config.location :- Here you specify property file path , if inubuilt property file then dont use this command at all.
 <br/>--MYENV=STAGE :- To specify env and accordingly load specific property file.
